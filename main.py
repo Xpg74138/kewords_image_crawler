@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 CONFIG_PATH = "config.txt"
 OUTPUT_ROOT = "images"
 METADATA_FILE = "metadata.csv"
-MAX_PER_KEYWORD = 50          # 每个关键词最多下载多少张
+MAX_PER_KEYWORD = 5          # 每个关键词最多下载多少张
 REQUEST_DELAY_RANGE = (1, 3)   # 每次分页抓取后的随机延迟（秒）以降低被封风险
 TIMEOUT = 10                   # 下载超时（秒）
 HEADERS = {
